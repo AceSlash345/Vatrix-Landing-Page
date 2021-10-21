@@ -1,0 +1,65 @@
+<style>
+#header{
+}
+#header-img{
+  float:left;
+  margin-top:-65px;
+}
+#nav-bar{
+  background-color:gray;
+  overflow:hidden;
+  top:0px;
+  width:100%;
+  position:fixed;
+  height:72px;
+}
+#nav-bar a{
+  float:left;
+  display:flex;
+  color: white;
+  text-align:center;
+  padding: 20px 50px;
+  font-size:25px;
+  text-decoration:none;
+  border: 1px solid black;
+}
+#nav-bar a:hover{
+  color:black;
+  background-color:white;
+  animation-name:nav-bar;
+  animation-duration:.25s;
+}
+#form{
+}
+#video{  
+}
+#email{
+}
+#submit{
+  width:150px;
+  height:40px;
+  margin-top:10px;
+  background-color:blue;
+  color:white;
+  border-radius:15px;
+}
+@keyframes nav-bar{
+  from {background-color:gray}
+  to {background-color:white}
+}
+@media only screen and (max-width:750px){
+  body{
+      background-color:lightblue;
+  }
+}
+.nav-link{
+}
+.center{
+  text-align:center;
+  margin-top:150px;
+}
+.arial{
+  font-family:arial;
+  text-align:center;
+}
+</style>
